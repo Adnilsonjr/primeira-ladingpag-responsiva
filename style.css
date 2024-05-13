@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.background-1 {
+    background-color: #2B0955;
+    width: 100%;
+    height: 460px;
+}
+
+.logo-menu {
+    width: 87px;
+    height: 33px;
+}
+
+.logo-menu img {
+    width: 100%;
+    height: 100%;
+}
+.offcanvas{
+    width:100% !important;
+}
+.icons-menu{
+    width: 20px;
+    height: 20px;
+}
+.icons-menu img{
+    width: 100%;
+    height: 100%;
+}
+
+.man-burger {
+    width: 600px;
+    height: 559px;
+}
+
+.man-burger img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-titulo-mb {
+    width: 327px;
+}
+
+.titulo-man-burger {
+    font-size: 64px;
+}
+
+.div-paragrafo-mb {
+    width: 327px;
+
+}
+
+.paragrafo-man-burger {
+    font-size: 18px;
+}
+
+.span {
+    color: #FBC508;
+    font-weight: bolder;
+}
+
+.botao-man-burger {
+    width: 186px;
+    height: 46px;
+}
+
+.botao-man-burger button {
+    width: 100%;
+    height: 100%;
+    background-color: #FBC508;
+    color: #2B0955;
+    font-weight: bolder;
+    border: none;
+    border-radius: 8px;
+
+}
+
+.botao2-man-burger {
+    width: 202px;
+    height: 46px;
+}
+
+.botao2-man-burger button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 8px;
+
+}
+
+@media (max-width: 884px) {
+    .background-1 {
+        height: 760px;
+    }
+    
+}
+
+@media (max-width: 992px) {
+    .man-burger {
+        width: 100%;
+        height: 400px;
+    }
+
+    .titulo-man-burger {
+        font-size: 48px;
+    }
+
+}
+
+@media (min-width:768px) and (max-width: 992px) {
+    .man-burger {
+        width: 100%;
+        height: 550px;
+    }
+
+    .background-1 {
+        height: 450px;
+    }
+
+}
+
+@media (min-width:993px ) {
+    .man-burger {
+        width: 100%;
+        height: 550px;
+    }
+    .background-1 {
+        width: 100%;
+    }
+
+}
+
+.div-imagem-card {
+    width: 175px;
+    height: 175px;
+    
+}
+
+.div-imagem-card img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.subtitulo {
+    margin-top: 30px;
+    color: #2B0955;
+    font-size: 24px;
+}
+
+.paragrafo {
+    font-size: 16px;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    width: 290px;
+    height: 370px;
+}
+
+
+.ancora-roxa {
+    text-decoration: none;
+    font-size: 18px;
+    color: #7000FF;
+    font-weight: bolder;
+}
+
+.titulo2 {
+    font-size: 36px;
+    color: #2B0955;
+}
+
+@media (max-width:767px) {
+
+    .ancora-roxa {
+        font-size: 25px;
+
+    }
+    .titulo2 {
+        font-size: 48px;
+        font-weight: bolder;
+    } 
+    .paragrafo2 {
+        font-size: 25px;
+
+    }
+
+    .subtitulo {
+        font-size: 34px;
+    }
+    
+    .paragrafo {
+        font-size: 20px;
+    }
+    
+}
+
+.paragrafo2 {
+    font-size: 21px;
+}
+
+.span-p-roxo {
+    color: #7000FF;
+    font-weight: bolder;
+}
+
+.div-botao-eq {
+    width: 186px;
+    height: 46px;
+}
+
+.div-botao-eq button {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    background-color: #FBC508;
+    color: #2B0955;
+    font-weight: bolder;
+}
+
+.div-man-phone {
+    width: 320px;
+    height: 400px;
+}
+
+
+.div-man-phone img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-chat {
+    width: 160px;
+    height: 110px;
+}
+
+.image-chat img {
+    width: 100%;
+    height: 100%;
+}
+
+.div-whatsapp-image {
+    width: 39px;
+    height: 39px;
+}
+
+.div-whatsapp-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.background-3 {
+    width: 100%;
+    height: 500px;
+    background-color: #F8F6FA;
+}
+@media (max-width: 425px){
+    .background-3{
+        height: 800px;
+    }
+}
+
+.titulo3 {
+    color: #2B0955;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.paragrafos3 {
+    font-size: 16px;
+}
+
+.ancora-whatsapp {
+    color: #2B0955;
+    font-weight: bolder;
+}
+
+.label {
+    color: #7000FF;
+}
+
+.input {
+    border: 0.1px solid #7000FF;
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+}
+
+.div-input-enviar {
+    width: 100%;
+    height: 30px;
+
+}
+
+.input-enviar {
+    width: 186px;
+    height: 46px;
+    background-color: #FBC508;
+    border: none;
+    color: #2B0955;
+    font-weight: bolder;
+}
+
+
+
+.background-4 {
+    background-color: #2B0955;
+    height: 330px;
+}
